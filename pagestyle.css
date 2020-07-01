@@ -1,0 +1,296 @@
+.areyoubored{
+    text-align: center;
+    margin: 260px 50px 200px 50px;
+}
+
+
+.areyoubored h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    align-content: center;
+}
+
+body{
+    width: 100%;
+    align-content: center;
+    margin: 0px 0px;
+}
+
+
+.purplething{
+    background-color: rgb(27, 69, 117);
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 70px 20px;
+    align-self: center;
+}
+
+
+.purplething h2{
+    font-size: 40px;
+}
+
+
+.purplething p{
+    font-size: 24px;
+}
+
+
+.flexbox{
+    display: flex;
+    flex-direction: ltr;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: stretch;
+    margin: 140px 80px 140px 80px;
+}
+
+.flexcontainer{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.container{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: auto;
+}
+
+
+.item{
+    border: 2px solid rgba(150, 252, 158, 0.986);
+    margin: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px 20px;
+}
+
+
+.item h3{
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(255, 79, 79, 0.986);
+}
+
+.item p{
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    color: darkolivegreen;
+}
+
+
+.flexbox a{
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: rgba(150, 252, 158, 0.986);
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+}
+
+.intro{
+    padding: 40px 30px;
+    margin-top: 80px;
+    background-color: rgba(150, 252, 158, 0.986);
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    width: auto;
+}
+
+.intro h3{
+    font-size: 48px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+
+.intro p{
+    font-size: 24px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+ul{
+    margin: 100px 50px 200px 50px;
+}
+
+li h5{
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(255, 79, 79, 0.986);
+}
+
+li h6{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: darkolivegreen;
+    margin: 10px;
+}
+
+li p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(255, 79, 79, 0.986);
+    margin:0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 560px;
+    height: 315px;
+    align-self: start;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width:1160px){
+    .flexbox{
+        margin: 140px 20px 140px 20px;
+    }
+}
+
+
+@media screen and (max-width:1042px){
+    .flexbox{
+        margin: 140px 20px 140px 20px;
+    }
+}
+
+
+@media screen and (max-width:708px){
+
+    .wrapper{
+        width: auto;
+        height: auto;
+        position: relative;
+        padding-bottom: 46.25%;
+        margin: 0 8vw;
+    }
+    
+    iframe{
+        max-height: 315px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+
+    .areyoubored{
+        margin: 230px 50px 160px 50px;
+    }
+    
+    
+    .areyoubored h1{
+        font-size: 24px;
+    }
+    
+    
+    body{
+        width: 100%;
+    }
+    
+    
+    .purplething{
+        overflow: hidden;
+        padding: 40px 21px;
+    }
+    
+    
+    .purplething h2{
+        font-size: 24px;
+    }
+    
+    
+    .purplething p{
+        font-size: 18px;
+    }
+    
+    
+    .flexbox{
+        margin: 140px 10px 140px 10px;
+    }
+    
+    
+    .container{
+        padding: 10px 5px 10px 5px;
+        width: 100%;
+    }
+    
+    
+    .item{
+        align-self: center;
+        width: 95%;
+        padding: 20px 10px;
+    }
+    
+    
+    .item h3{
+        font-size: 24px;
+    }
+    
+    .item p{
+        font-size: 18px;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+
+    
+    .intro{
+        padding: 40px 21px;
+        margin-top: 60px;
+    }
+
+    .intro h3{
+        font-size: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .intro p{
+        font-size: 18px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    ul{
+        margin: 60px 15px 100px 15px;
+    }
+
+    li h5{
+        font-size: 16px;
+    }
+
+    li h6{
+        font-size: 14px;
+        margin: 6px;
+    }
+
+    li p{
+        font-size: 14px;
+    }
+}
